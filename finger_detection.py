@@ -45,7 +45,7 @@ while True:
             click_registered = False
         
         # Display blink count on the image
-        cvzone.putTextRect(img, f'Blink Count: {clickCounter}', (50,100))
+        cvzone.putTextRect(img, f'Click Count: {clickCounter}', (50,100))
 
     # Uncomment if you want to see output and plot.
     # cv.imshow('Image', img)         
