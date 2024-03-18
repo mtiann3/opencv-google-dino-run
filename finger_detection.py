@@ -48,7 +48,7 @@ while True:
         cvzone.putTextRect(img, f'Click Count: {clickCounter}', (50,100))
 
     # Uncomment if you want to see output and plot.
-    # cv.imshow('Image', img)         
+    # cv.imshow('Image', img)              
    
     # Break the loop if 'q' is pressed
     if cv.waitKey(1) & 0xFF == ord('q'):
